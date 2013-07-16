@@ -65,6 +65,8 @@ function ws_install() {
 				`scheduleid` int(10) NOT NULL default '0',
 				PRIMARY KEY  (`id`, `scheduleid`)
 				)  $charset_collate"); 
+
+	$wpdb->query("ALTER TABLE `$wpdb->wsdays` MODIFY COLUMN `name` varchar(120);");
 				
 	$daysresult = $wpdb->query("
 			SELECT * from `$wpdb->wsdays`");
