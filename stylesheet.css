@@ -67,7 +67,8 @@
 	text-align: center;
 	vertical-align: middle;
 	text-align:left;
-	font-size:10px;
+	font-size:8px;
+	border-bottom: 1px solid transparent;
 }
 
 .ws-schedule tr th {
@@ -148,13 +149,22 @@
 	background-color: #e76b79;
 }
 .ws-schedule td.yellow {
-	background-color:#ffe160;
+	background-color:#FFE572;
 }
 .ws-schedule td.blue {
 	background-color:#7eccdf;;
 }
 .ws-schedule td.green {
 	background-color:#68bb82;
+}
+.ws-schedule td.pink {
+	background-color:#D387EB;
+}
+.ws-schedule td.orange {
+	background-color:#FF9F43;
+}
+.ws-schedule td.dark-blue {
+	background-color:#0087FF;
 }
 .ws-schedule td.white {
 	background-color:#FFF;
@@ -163,6 +173,9 @@
 .ws-schedule td.yellow, 
 .ws-schedule td.blue,
 .ws-schedule td.green,
+.ws-schedule td.pink,
+.ws-schedule td.orange, 
+.ws-schedule td.dark-blue,
 .ws-schedule td.white {
   border-top-width: 1px;
 	border-bottom-width: 1px;
