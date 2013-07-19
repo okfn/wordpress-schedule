@@ -15,25 +15,25 @@
 	}
 
 /* hide unwanted rows */
-.ws-schedule.days1 tr:nth-last-of-type(-n+19),	
-.ws-schedule.days2 tr:nth-last-of-type(-n+18),	
-.ws-schedule.days3 tr:nth-last-of-type(-n+17),
-.ws-schedule.days4 tr:nth-last-of-type(-n+16),
-.ws-schedule.days5 tr:nth-last-of-type(-n+15),	
-.ws-schedule.days6 tr:nth-last-of-type(-n+14),
-.ws-schedule.days7 tr:nth-last-of-type(-n+13),
-.ws-schedule.days8 tr:nth-last-of-type(-n+12),
-.ws-schedule.days9 tr:nth-last-of-type(-n+11),
-.ws-schedule.days10 tr:nth-last-of-type(-n+10),
-.ws-schedule.days11 tr:nth-last-of-type(-n+9),
-.ws-schedule.days12 tr:nth-last-of-type(-n+8),
-.ws-schedule.days13 tr:nth-last-of-type(-n+7),
-.ws-schedule.days14 tr:nth-last-of-type(-n+6),
-.ws-schedule.days15 tr:nth-last-of-type(-n+5),
-.ws-schedule.days16 tr:nth-last-of-type(-n+4),
-.ws-schedule.days17 tr:nth-last-of-type(-n+3),
-.ws-schedule.days18 tr:nth-last-of-type(-n+2),
-.ws-schedule.days19 tr:nth-last-of-type(-n+1) {
+.page-id-1029 .ws-schedule.days1 tr:nth-last-of-type(-n+19),	
+.page-id-1029 .ws-schedule.days2 tr:nth-last-of-type(-n+18),	
+.page-id-1029 .ws-schedule.days3 tr:nth-last-of-type(-n+17),
+.page-id-1029 .ws-schedule.days4 tr:nth-last-of-type(-n+16),
+.page-id-1029 .ws-schedule.days5 tr:nth-last-of-type(-n+15),	
+.page-id-1029 .ws-schedule.days6 tr:nth-last-of-type(-n+14),
+.page-id-1029 .ws-schedule.days7 tr:nth-last-of-type(-n+13),
+.page-id-1029 .ws-schedule.days8 tr:nth-last-of-type(-n+12),
+.page-id-1029 .ws-schedule.days9 tr:nth-last-of-type(-n+11),
+.page-id-1029 .ws-schedule.days10 tr:nth-last-of-type(-n+10),
+.page-id-1029 .ws-schedule.days11 tr:nth-last-of-type(-n+9),
+.page-id-1029 .ws-schedule.days12 tr:nth-last-of-type(-n+8),
+.page-id-1029 .ws-schedule.days13 tr:nth-last-of-type(-n+7),
+.page-id-1029 .ws-schedule.days14 tr:nth-last-of-type(-n+6),
+.page-id-1029 .ws-schedule.days15 tr:nth-last-of-type(-n+5),
+.page-id-1029 .ws-schedule.days16 tr:nth-last-of-type(-n+4),
+.page-id-1029 .ws-schedule.days17 tr:nth-last-of-type(-n+3),
+.page-id-1029 .ws-schedule.days18 tr:nth-last-of-type(-n+2),
+.page-id-1029 .ws-schedule.days19 tr:nth-last-of-type(-n+1) {
 	display:none;
 }
 	
@@ -59,20 +59,23 @@
 }
 .ws-schedule th.rowheader {
 	height: 50px;
-	font-size:11px;
-	width:100px;
+	font-size: 9px;
+	line-height: 1.3em;
+	width: 75px;
 	font-weight:bold;
+	text-align: center;
+	padding-right: 10px;
 }
 .ws-schedule th {
 	text-align: center;
 	vertical-align: middle;
 	text-align:left;
-	font-size:8px;
+	font-size: 11px;
 	border-bottom: 1px solid transparent;
 }
 
 .ws-schedule tr th {
-	padding: 0px !important;
+	/*padding: 0px !important;*/
 }
 
 .ws-schedule tr.topheader {
@@ -144,6 +147,7 @@
 	border-left-width: 1px;
 	border-left-style: solid;
 	border-left-color: #DDDDDD;	
+	word-wrap: break-word;
 }
 .ws-schedule td.red {
 	background-color: #e76b79;
@@ -169,6 +173,26 @@
 .ws-schedule td.white {
 	background-color:#FFF;
 }
+.ws-schedule td.purple {
+	background-color:#4101A2;
+	color: #fff;
+}
+.ws-schedule td.brown {
+	background-color: #553111;
+	color: #fff;
+} 
+.ws-schedule td.bright-red {
+	background-color:#c20e0e;
+	color: #fff;
+} 
+.ws-schedule td.light-gree {
+	background-color:#B9ED97;
+} 
+.ws-schedule td.black {
+	background-color:#000;
+	color: #fff;
+} 
+
 .ws-schedule td.red,
 .ws-schedule td.yellow, 
 .ws-schedule td.blue,
@@ -176,7 +200,13 @@
 .ws-schedule td.pink,
 .ws-schedule td.orange, 
 .ws-schedule td.dark-blue,
-.ws-schedule td.white {
+.ws-schedule td.white,
+.ws-schedule td.black,
+.ws-schedule td.purple,
+.ws-schedule td.brown,
+.ws-schedule td.bright-red,
+.ws-schedule td.light-gree
+{
   border-top-width: 1px;
 	border-bottom-width: 1px;
 	border-top-style: solid;
@@ -204,4 +234,12 @@ table tbody tr:nth-child(2n) {
 
 .ws-schedule table td {
 	background-color:inherit;
+}
+
+ul.tabs-content.contained.schedule-tabs > li {
+	padding: 5px;
+}
+
+.schedule-tabs .topheader th:nth-child(2n+1) {
+	visibility: hidden;
 }
