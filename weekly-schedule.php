@@ -65,6 +65,8 @@ function ws_install() {
 				`scheduleid` int(10) NOT NULL default '0',
 				PRIMARY KEY  (`id`, `scheduleid`)
 				)  $charset_collate"); 
+
+	$wpdb->query("ALTER TABLE `$wpdb->wsdays` MODIFY COLUMN `name` varchar(120);");
 				
 	$daysresult = $wpdb->query("
 			SELECT * from `$wpdb->wsdays`");
@@ -1143,6 +1145,14 @@ if ( ! class_exists( 'WS_Admin' ) ) {
             <option value="yellow">Yellow</option>
             <option value="blue">Blue</option>
             <option value="green">Green</option>
+            <option value="pink">Pink</option>
+            <option value="orange">Orange</option>
+            <option value="dark-blue">Dark Blue</option>
+            <option value="purple">Purple</option>
+            <option value="light-pink">Light Pink</option>
+            <option value="bright-red">Bright Red</option>
+            <option value="light-gree">Light Green</option>
+            <option value="lilac">Lilac</option>
             <option value="white">White</option>
             </optgroup>
           </select>
