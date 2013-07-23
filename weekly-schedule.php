@@ -1149,10 +1149,10 @@ if ( ! class_exists( 'WS_Admin' ) ) {
             <option value="orange">Orange</option>
             <option value="dark-blue">Dark Blue</option>
             <option value="purple">Purple</option>
-            <option value="brown">Brown</option>
+            <option value="light-pink">Light Pink</option>
             <option value="bright-red">Bright Red</option>
             <option value="light-gree">Light Green</option>
-            <option value="black">Black</option>
+            <option value="lilac">Lilac</option>
             <option value="white">White</option>
             </optgroup>
           </select>
