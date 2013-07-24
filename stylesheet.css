@@ -142,7 +142,11 @@
 .ws-schedule table td {
 	border-left-width: 1px;
 	border-left-style: solid;
-	border-left-color: #DDDDDD;	
+	border-left-color: #DDDDDD;
+	padding:9px 10px;
+	font-size:12px;
+	line-height:normal;
+	word-wrap: break-word;
 }
 .ws-schedule td.red {
 	background-color: #e76b79;
@@ -151,10 +155,34 @@
 	background-color:#ffe160;
 }
 .ws-schedule td.blue {
-	background-color:#7eccdf;;
+	background-color:#7eccdf;
 }
 .ws-schedule td.green {
 	background-color:#68bb82;
+}
+.ws-schedule td.pink {
+	background-color:#f4aacc;
+}
+.ws-schedule td.orange {
+	background-color:#ea7045;
+}
+.ws-schedule td.navy {
+	background-color:#7e85df;
+}
+.ws-schedule td.purple {
+	background-color:#a27194;
+}
+.ws-schedule td.crimson {
+	background-color:#dd5e54;
+}
+.ws-schedule td.teal {
+	background-color:#59aaa6;
+}
+.ws-schedule td.turquoise {
+	background-color:#7edfdb;
+}
+.ws-schedule td.violet {
+	background-color:#d9aaf4;
 }
 .ws-schedule td.white {
 	background-color:#FFF;
@@ -163,6 +191,14 @@
 .ws-schedule td.yellow, 
 .ws-schedule td.blue,
 .ws-schedule td.green,
+.ws-schedule td.pink,
+.ws-schedule td.orange,
+.ws-schedule td.navy,
+.ws-schedule td.purple,
+.ws-schedule td.crimson,
+.ws-schedule td.teal,
+.ws-schedule td.turquoise,
+.ws-schedule td.violet,
 .ws-schedule td.white {
   border-top-width: 1px;
 	border-bottom-width: 1px;

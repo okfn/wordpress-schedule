@@ -2,7 +2,7 @@
 /*Plugin Name: Schedule
 Plugin URI: 
 Description: A plugin used to create a timetable of events, based on Weekly Schedule 2.4 by Yannick Lefebvre
-Version: 1.0
+Version: 1.1
 Author: Sam Smith
 Author URI: http://www.mintcanary.com/     
 
@@ -798,8 +798,8 @@ if ( ! class_exists( 'WS_Admin' ) ) {
 					</tr>
 					</table>
 				</td>
-				<td>
-					&nbsp;
+				<td>&nbsp;
+					
 				</td>
 				</tr>
 				</table>
@@ -1147,12 +1147,12 @@ if ( ! class_exists( 'WS_Admin' ) ) {
             <option value="green">Green</option>
             <option value="pink">Pink</option>
             <option value="orange">Orange</option>
-            <option value="dark-blue">Dark Blue</option>
+            <option value="navy">Navy</option>
             <option value="purple">Purple</option>
-            <option value="light-pink">Light Pink</option>
-            <option value="bright-red">Bright Red</option>
-            <option value="light-gree">Light Green</option>
-            <option value="lilac">Lilac</option>
+            <option value="crimson">Crimson</option>
+            <option value="teal">Teal</option>
+            <option value="turquoise">Turquoise</option>
+            <option value="violet">Violet</option>
             <option value="white">White</option>
             </optgroup>
           </select>
